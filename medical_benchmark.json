@@ -1,0 +1,1636 @@
+[
+    {
+    "biomarker": "Haemoglobin",
+    "aliases": [
+    "Hb",
+    "Hgb",
+    "Hemoglobin"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "g/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 13.8,
+    "max": 17.2
+    },
+    "female": {
+    "min": 12.1,
+    "max": 15.1
+    }
+    },
+    "plain_english_function": "Haemoglobin is the protein in your red blood cells that carries oxygen from your lungs to the rest of your body. It is what gives blood its red color.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Anemia",
+    "potential_causes": [
+    "Iron deficiency",
+    "Vitamin B12 or folate deficiency",
+    "Chronic bleeding",
+    "Bone marrow problems"
+    ],
+    "related_markers_to_check": [
+    "Total RBC",
+    "Haematocrit (PCV)",
+    "MCV",
+    "MCH"
+    ]
+    },
+    "high": {
+    "meaning": "Polycythemia",
+    "potential_causes": [
+    "Dehydration",
+    "Living at a high altitude",
+    "Severe lung disease",
+    "Polycythemia vera"
+    ],
+    "related_markers_to_check": [
+    "Total RBC",
+    "Haematocrit (PCV)"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Total RBC",
+    "aliases": [
+    "RBC Count",
+    "Red Blood Cells",
+    "Erythrocytes"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "millions/mcL",
+    "reference_ranges": {
+    "male": {
+    "min": 4.5,
+    "max": 5.9
+    },
+    "female": {
+    "min": 4.1,
+    "max": 5.1
+    }
+    },
+    "plain_english_function": "Red blood cells are the actual cells that carry oxygen to your tissues and take carbon dioxide back to your lungs to be exhaled.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Anemia / Erythrocytopenia",
+    "potential_causes": [
+    "Nutritional deficiencies",
+    "Bleeding",
+    "Kidney failure",
+    "Chronic disease"
+    ],
+    "related_markers_to_check": [
+    "Haemoglobin",
+    "Haematocrit (PCV)",
+    "MCV"
+    ]
+    },
+    "high": {
+    "meaning": "Erythrocytosis / Polycythemia",
+    "potential_causes": [
+    "Dehydration",
+    "Chronic low oxygen levels",
+    "Heart disease",
+    "Bone marrow disorder"
+    ],
+    "related_markers_to_check": [
+    "Haemoglobin",
+    "Haematocrit (PCV)"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Haematocrit",
+    "aliases": [
+    "PCV",
+    "HCT",
+    "Packed Cell Volume",
+    "Crit"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 41.0,
+    "max": 50.0
+    },
+    "female": {
+    "min": 36.0,
+    "max": 48.0
+    }
+    },
+    "plain_english_function": "Haematocrit measures the percentage of your total blood volume that is made up of red blood cells. It shows how thick or thin your blood is with red cells.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Anemia",
+    "potential_causes": [
+    "Low iron or vitamins",
+    "Blood loss",
+    "Leukemia",
+    "Overhydration"
+    ],
+    "related_markers_to_check": [
+    "Haemoglobin",
+    "Total RBC",
+    "MCV"
+    ]
+    },
+    "high": {
+    "meaning": "Polycythemia",
+    "potential_causes": [
+    "Dehydration",
+    "Lung disease",
+    "Congenital heart disease",
+    "Tumors producing erythropoietin"
+    ],
+    "related_markers_to_check": [
+    "Haemoglobin",
+    "Total RBC"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Mean Corpuscular Volume",
+    "aliases": [
+    "MCV"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "fL",
+    "reference_ranges": {
+    "male": {
+    "min": 80.0,
+    "max": 100.0
+    },
+    "female": {
+    "min": 80.0,
+    "max": 100.0
+    }
+    },
+    "plain_english_function": "MCV measures the average size of your red blood cells. It helps doctors figure out what kind of anemia you might have.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Microcytosis",
+    "potential_causes": [
+    "Iron deficiency anemia",
+    "Thalassemia",
+    "Lead poisoning",
+    "Chronic disease"
+    ],
+    "related_markers_to_check": [
+    "MCH",
+    "Haemoglobin",
+    "RDW"
+    ]
+    },
+    "high": {
+    "meaning": "Macrocytosis",
+    "potential_causes": [
+    "Vitamin B12 deficiency",
+    "Folate deficiency",
+    "Liver disease",
+    "Alcoholism"
+    ],
+    "related_markers_to_check": [
+    "MCH",
+    "Haemoglobin",
+    "RDW"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Mean Corpuscular Haemoglobin",
+    "aliases": [
+    "MCH"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "pg",
+    "reference_ranges": {
+    "male": {
+    "min": 27.0,
+    "max": 33.0
+    },
+    "female": {
+    "min": 27.0,
+    "max": 33.0
+    }
+    },
+    "plain_english_function": "MCH measures the average amount of haemoglobin protein inside a single red blood cell. It generally moves up and down in sync with MCV.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypochromasia",
+    "potential_causes": [
+    "Iron deficiency anemia",
+    "Thalassemia",
+    "Microcytic anemia"
+    ],
+    "related_markers_to_check": [
+    "MCV",
+    "MCHC",
+    "Haemoglobin"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperchromasia",
+    "potential_causes": [
+    "Macrocytic anemia",
+    "Vitamin B12 deficiency",
+    "Folate deficiency"
+    ],
+    "related_markers_to_check": [
+    "MCV",
+    "MCHC",
+    "Haemoglobin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Mean Corpuscular Haemoglobin Concentration",
+    "aliases": [
+    "MCHC"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "g/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 32.0,
+    "max": 36.0
+    },
+    "female": {
+    "min": 32.0,
+    "max": 36.0
+    }
+    },
+    "plain_english_function": "MCHC measures how concentrated the haemoglobin is within your red blood cells. It helps show if your red blood cells are pale or deeply colored.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypochromia",
+    "potential_causes": [
+    "Iron deficiency anemia",
+    "Thalassemia",
+    "Conditions leading to pale red blood cells"
+    ],
+    "related_markers_to_check": [
+    "MCV",
+    "MCH",
+    "Haemoglobin"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperchromia",
+    "potential_causes": [
+    "Hereditary spherocytosis",
+    "Severe burns",
+    "Autoimmune hemolytic anemia"
+    ],
+    "related_markers_to_check": [
+    "Total RBC",
+    "Total Bilirubin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Red Cell Distribution Width",
+    "aliases": [
+    "RDW",
+    "RDW-CV"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 11.5,
+    "max": 14.5
+    },
+    "female": {
+    "min": 11.5,
+    "max": 14.5
+    }
+    },
+    "plain_english_function": "RDW measures how much your red blood cells vary in size. Normally, they are all about the same size, but nutritional problems can make them vary wildly.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Anisocytosis",
+    "potential_causes": [
+    "Iron deficiency anemia",
+    "Vitamin B12 or folate deficiency",
+    "Recent blood loss",
+    "Liver disease"
+    ],
+    "related_markers_to_check": [
+    "MCV",
+    "Haemoglobin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Total WBC",
+    "aliases": [
+    "WBC Count",
+    "White Blood Cells",
+    "Leukocytes",
+    "TLC",
+    "Total Leukocyte Count"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "cells/mcL",
+    "reference_ranges": {
+    "male": {
+    "min": 4500.0,
+    "max": 11000.0
+    },
+    "female": {
+    "min": 4500.0,
+    "max": 11000.0
+    }
+    },
+    "plain_english_function": "White blood cells are your body's immune system army. They fight off infections, viruses, and bacteria that try to make you sick.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Leukopenia",
+    "potential_causes": [
+    "Viral infections",
+    "Bone marrow disorders",
+    "Autoimmune diseases",
+    "Certain medications"
+    ],
+    "related_markers_to_check": [
+    "Neutrophils",
+    "Lymphocytes"
+    ]
+    },
+    "high": {
+    "meaning": "Leukocytosis",
+    "potential_causes": [
+    "Bacterial infections",
+    "Inflammation",
+    "Physical or emotional stress",
+    "Leukemia"
+    ],
+    "related_markers_to_check": [
+    "Neutrophils",
+    "Lymphocytes",
+    "Eosinophils"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Platelets",
+    "aliases": [
+    "PLT",
+    "Thrombocytes",
+    "Platelet Count"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "cells/mcL",
+    "reference_ranges": {
+    "male": {
+    "min": 150000.0,
+    "max": 450000.0
+    },
+    "female": {
+    "min": 150000.0,
+    "max": 450000.0
+    }
+    },
+    "plain_english_function": "Platelets are tiny cell fragments that stick together to form clots when you get cut. They stop you from bleeding too much.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Thrombocytopenia",
+    "potential_causes": [
+    "Viral infections (like Dengue)",
+    "Autoimmune disorders",
+    "Leukemia",
+    "Chemotherapy"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Total RBC"
+    ]
+    },
+    "high": {
+    "meaning": "Thrombocytosis",
+    "potential_causes": [
+    "Chronic inflammation",
+    "Iron deficiency anemia",
+    "Recent surgery or trauma",
+    "Bone marrow disorders"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Haemoglobin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Neutrophils",
+    "aliases": [
+    "Polymorphonuclear cells",
+    "PMNs",
+    "Polys",
+    "Segs"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 40.0,
+    "max": 75.0
+    },
+    "female": {
+    "min": 40.0,
+    "max": 75.0
+    }
+    },
+    "plain_english_function": "Neutrophils are the most common type of white blood cell and are the first responders to bacterial infections and physical stress.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Neutropenia",
+    "potential_causes": [
+    "Severe viral infections",
+    "Autoimmune disorders",
+    "Chemotherapy",
+    "Bone marrow failure"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Lymphocytes"
+    ]
+    },
+    "high": {
+    "meaning": "Neutrophilia",
+    "potential_causes": [
+    "Bacterial infections",
+    "Physical stress or injury",
+    "Inflammation",
+    "Certain medications (like steroids)"
+    ],
+    "related_markers_to_check": [
+    "Total WBC"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Lymphocytes",
+    "aliases": [
+    "Lymphs"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 20.0,
+    "max": 40.0
+    },
+    "female": {
+    "min": 20.0,
+    "max": 40.0
+    }
+    },
+    "plain_english_function": "Lymphocytes are white blood cells that fight off viral infections and help create antibodies to remember infections for the future.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Lymphocytopenia",
+    "potential_causes": [
+    "Autoimmune diseases",
+    "Severe infections (like HIV or flu)",
+    "Radiation or chemotherapy",
+    "Steroid use"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Neutrophils"
+    ]
+    },
+    "high": {
+    "meaning": "Lymphocytosis",
+    "potential_causes": [
+    "Viral infections (like mononucleosis)",
+    "Whooping cough",
+    "Certain types of leukemia",
+    "Tuberculosis"
+    ],
+    "related_markers_to_check": [
+    "Total WBC"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Eosinophils",
+    "aliases": [
+    "Eos",
+    "Eosinophil Count"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 1.0,
+    "max": 6.0
+    },
+    "female": {
+    "min": 1.0,
+    "max": 6.0
+    }
+    },
+    "plain_english_function": "Eosinophils are a type of white blood cell that specifically fight off allergic reactions and parasitic infections.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Eosinophilia",
+    "potential_causes": [
+    "Allergies or asthma",
+    "Parasitic infections",
+    "Skin conditions like eczema",
+    "Autoimmune diseases"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Basophils"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Monocytes",
+    "aliases": [
+    "Mono"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 2.0,
+    "max": 10.0
+    },
+    "female": {
+    "min": 2.0,
+    "max": 10.0
+    }
+    },
+    "plain_english_function": "Monocytes are the largest type of white blood cell. They clean up dead cells in the body and help fight off long-term infections.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Monocytosis",
+    "potential_causes": [
+    "Chronic infections",
+    "Autoimmune disorders (like lupus or rheumatoid arthritis)",
+    "Blood disorders",
+    "Recovery phase of acute infections"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Lymphocytes"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Basophils",
+    "aliases": [
+    "Baso"
+    ],
+    "category": "Complete Blood Count",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 0.0,
+    "max": 2.0
+    },
+    "female": {
+    "min": 0.0,
+    "max": 2.0
+    }
+    },
+    "plain_english_function": "Basophils are white blood cells involved in inflammatory reactions, particularly those causing allergic symptoms.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Basophilia",
+    "potential_causes": [
+    "Severe allergic reactions",
+    "Chronic inflammation",
+    "Leukemia",
+    "Hypothyroidism"
+    ],
+    "related_markers_to_check": [
+    "Total WBC",
+    "Eosinophils"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Aspartate Aminotransferase",
+    "aliases": [
+    "SGOT",
+    "AST",
+    "Serum Glutamic Oxaloacetic Transaminase"
+    ],
+    "category": "Liver Function Test",
+    "unit": "U/L",
+    "reference_ranges": {
+    "male": {
+    "min": 8.0,
+    "max": 40.0
+    },
+    "female": {
+    "min": 6.0,
+    "max": 34.0
+    }
+    },
+    "plain_english_function": "SGOT is an enzyme found mostly in the liver, but also in muscles and the heart. When these organs are damaged, SGOT leaks into the blood.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Elevated AST",
+    "potential_causes": [
+    "Liver damage or disease (hepatitis, cirrhosis)",
+    "Muscle damage or injury",
+    "Heart attack",
+    "Excessive alcohol consumption"
+    ],
+    "related_markers_to_check": [
+    "SGPT (ALT)",
+    "Alkaline Phosphatase (ALP)",
+    "Total Bilirubin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Alanine Aminotransferase",
+    "aliases": [
+    "SGPT",
+    "ALT",
+    "Serum Glutamic Pyruvic Transaminase"
+    ],
+    "category": "Liver Function Test",
+    "unit": "U/L",
+    "reference_ranges": {
+    "male": {
+    "min": 7.0,
+    "max": 56.0
+    },
+    "female": {
+    "min": 7.0,
+    "max": 56.0
+    }
+    },
+    "plain_english_function": "SGPT is an enzyme found primarily in the liver. It is a very specific indicator of liver health, rising when liver cells are damaged.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Elevated ALT",
+    "potential_causes": [
+    "Viral hepatitis",
+    "Fatty liver disease",
+    "Alcoholic liver disease",
+    "Liver damage from medications or toxins"
+    ],
+    "related_markers_to_check": [
+    "SGOT (AST)",
+    "Alkaline Phosphatase (ALP)",
+    "Total Bilirubin"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Alkaline Phosphatase",
+    "aliases": [
+    "ALP",
+    "Alk Phos"
+    ],
+    "category": "Liver Function Test",
+    "unit": "U/L",
+    "reference_ranges": {
+    "male": {
+    "min": 44.0,
+    "max": 147.0
+    },
+    "female": {
+    "min": 44.0,
+    "max": 147.0
+    }
+    },
+    "plain_english_function": "Alkaline Phosphatase is an enzyme found in your liver, bones, and bile ducts. High levels can indicate problems in either the liver or the bones.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypophosphatasia",
+    "potential_causes": [
+    "Malnutrition",
+    "Zinc deficiency",
+    "Rare genetic bone disorders"
+    ],
+    "related_markers_to_check": [
+    "Total Protein",
+    "Serum Calcium"
+    ]
+    },
+    "high": {
+    "meaning": "Elevated ALP",
+    "potential_causes": [
+    "Blocked bile ducts",
+    "Liver disease",
+    "Bone growth or bone disorders (like Paget's disease)",
+    "Vitamin D deficiency"
+    ],
+    "related_markers_to_check": [
+    "SGOT (AST)",
+    "SGPT (ALT)",
+    "Total Bilirubin",
+    "Serum Calcium"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Total Bilirubin",
+    "aliases": [
+    "T. Bili",
+    "Bilirubin"
+    ],
+    "category": "Liver Function Test",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 0.1,
+    "max": 1.2
+    },
+    "female": {
+    "min": 0.1,
+    "max": 1.2
+    }
+    },
+    "plain_english_function": "Bilirubin is a yellowish substance made during the normal breakdown of red blood cells. The liver clears it out, so high levels mean the liver is struggling.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Hyperbilirubinemia (Jaundice)",
+    "potential_causes": [
+    "Liver disease (hepatitis, cirrhosis)",
+    "Bile duct blockage (gallstones)",
+    "Hemolytic anemia (rapid breakdown of red blood cells)",
+    "Gilbert's syndrome"
+    ],
+    "related_markers_to_check": [
+    "SGOT (AST)",
+    "SGPT (ALT)",
+    "Alkaline Phosphatase (ALP)",
+    "Total RBC"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Blood Urea Nitrogen",
+    "aliases": [
+    "BUN",
+    "Urea",
+    "Serum Urea"
+    ],
+    "category": "Kidney Function Test",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 8.0,
+    "max": 24.0
+    },
+    "female": {
+    "min": 6.0,
+    "max": 21.0
+    }
+    },
+    "plain_english_function": "BUN measures the amount of urea nitrogen in your blood, which is a waste product formed when protein is broken down. Healthy kidneys filter it out.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Low BUN",
+    "potential_causes": [
+    "Low protein diet",
+    "Malnutrition",
+    "Severe liver damage",
+    "Overhydration"
+    ],
+    "related_markers_to_check": [
+    "Total Protein",
+    "Creatinine"
+    ]
+    },
+    "high": {
+    "meaning": "Azotemia / Uremia",
+    "potential_causes": [
+    "Kidney failure or disease",
+    "Dehydration",
+    "High protein diet",
+    "Heart failure"
+    ],
+    "related_markers_to_check": [
+    "Creatinine",
+    "Uric Acid"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Creatinine",
+    "aliases": [
+    "Serum Creatinine",
+    "Cr",
+    "S.Cr"
+    ],
+    "category": "Kidney Function Test",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 0.74,
+    "max": 1.35
+    },
+    "female": {
+    "min": 0.59,
+    "max": 1.04
+    }
+    },
+    "plain_english_function": "Creatinine is a waste product generated by normal muscle wear and tear. Because kidneys constantly filter it out, it is an excellent marker of kidney health.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Low Creatinine",
+    "potential_causes": [
+    "Low muscle mass",
+    "Severe liver disease",
+    "Low protein diet"
+    ],
+    "related_markers_to_check": [
+    "Blood Urea Nitrogen (BUN)"
+    ]
+    },
+    "high": {
+    "meaning": "Elevated Creatinine",
+    "potential_causes": [
+    "Acute or chronic kidney disease",
+    "Severe dehydration",
+    "Urinary tract obstruction",
+    "High muscle breakdown"
+    ],
+    "related_markers_to_check": [
+    "Blood Urea Nitrogen (BUN)",
+    "Uric Acid"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Uric Acid",
+    "aliases": [
+    "Serum Uric Acid",
+    "SUA"
+    ],
+    "category": "Kidney Function Test",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 4.0,
+    "max": 8.5
+    },
+    "female": {
+    "min": 2.7,
+    "max": 7.3
+    }
+    },
+    "plain_english_function": "Uric acid is produced when your body breaks down purines, which are found in certain foods and drinks. Too much can cause kidney stones or gout.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypouricemia",
+    "potential_causes": [
+    "Liver or kidney diseases",
+    "Exposure to toxic compounds",
+    "Rare genetic defects"
+    ],
+    "related_markers_to_check": [
+    "Blood Urea Nitrogen (BUN)",
+    "Creatinine"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperuricemia",
+    "potential_causes": [
+    "Gout",
+    "Kidney disease",
+    "Diet high in purines (red meat, alcohol)",
+    "Certain medications (like diuretics)"
+    ],
+    "related_markers_to_check": [
+    "Creatinine",
+    "Blood Urea Nitrogen (BUN)"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Total Cholesterol",
+    "aliases": [
+    "Cholesterol",
+    "TC",
+    "Total Chol"
+    ],
+    "category": "Lipid Panel",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 125.0,
+    "max": 200.0
+    },
+    "female": {
+    "min": 125.0,
+    "max": 200.0
+    }
+    },
+    "plain_english_function": "Total cholesterol measures all the fat-like substances in your blood. Your body needs some to build cells, but too much can clog arteries.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypocholesterolemia",
+    "potential_causes": [
+    "Hyperthyroidism",
+    "Malnutrition",
+    "Severe liver disease",
+    "Cholesterol-lowering medications"
+    ],
+    "related_markers_to_check": [
+    "High-Density Lipoprotein",
+    "Low-Density Lipoprotein",
+    "Triglycerides"
+    ]
+    },
+    "high": {
+    "meaning": "Hypercholesterolemia",
+    "potential_causes": [
+    "Poor diet (high in saturated fats)",
+    "Lack of exercise",
+    "Genetics",
+    "Hypothyroidism"
+    ],
+    "related_markers_to_check": [
+    "High-Density Lipoprotein",
+    "Low-Density Lipoprotein",
+    "Triglycerides"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "High-Density Lipoprotein",
+    "aliases": [
+    "HDL",
+    "Good Cholesterol",
+    "HDL-C"
+    ],
+    "category": "Lipid Panel",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 40.0,
+    "max": 60.0
+    },
+    "female": {
+    "min": 50.0,
+    "max": 60.0
+    }
+    },
+    "plain_english_function": "HDL is known as 'good cholesterol' because it carries excess cholesterol away from your arteries and back to your liver to be removed.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Low HDL",
+    "potential_causes": [
+    "Sedentary lifestyle",
+    "Smoking",
+    "Poor diet (high in trans fats)",
+    "Uncontrolled diabetes"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "Low-Density Lipoprotein",
+    "Triglycerides"
+    ]
+    },
+    "high": {
+    "meaning": "High HDL",
+    "potential_causes": [
+    "Regular aerobic exercise",
+    "Healthy diet choices",
+    "Genetics",
+    "Moderate alcohol consumption"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "Low-Density Lipoprotein"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Low-Density Lipoprotein",
+    "aliases": [
+    "LDL",
+    "Bad Cholesterol",
+    "LDL-C"
+    ],
+    "category": "Lipid Panel",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 0.0,
+    "max": 99.0
+    },
+    "female": {
+    "min": 0.0,
+    "max": 99.0
+    }
+    },
+    "plain_english_function": "LDL is considered 'bad cholesterol' because high levels of it can build up and form hard plaques inside your arteries, causing heart disease.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Low LDL",
+    "potential_causes": [
+    "Use of statin medications",
+    "Malnutrition",
+    "Hyperthyroidism"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "High-Density Lipoprotein"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperlipidemia",
+    "potential_causes": [
+    "Diet high in saturated and trans fats",
+    "Obesity",
+    "Genetics (familial hypercholesterolemia)",
+    "Diabetes"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "High-Density Lipoprotein",
+    "Triglycerides"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Triglycerides",
+    "aliases": [
+    "TG",
+    "Trigs"
+    ],
+    "category": "Lipid Panel",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 10.0,
+    "max": 150.0
+    },
+    "female": {
+    "min": 10.0,
+    "max": 150.0
+    }
+    },
+    "plain_english_function": "Triglycerides are a type of fat found in your blood that your body uses for energy. High levels often indicate that you eat more calories than you burn.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypotriglyceridemia",
+    "potential_causes": [
+    "Low-fat diet",
+    "Malabsorption syndrome",
+    "Hyperthyroidism"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "Low-Density Lipoprotein"
+    ]
+    },
+    "high": {
+    "meaning": "Hypertriglyceridemia",
+    "potential_causes": [
+    "Obesity and sedentary lifestyle",
+    "Uncontrolled diabetes",
+    "High consumption of alcohol or sugar",
+    "Kidney or liver disease"
+    ],
+    "related_markers_to_check": [
+    "Total Cholesterol",
+    "High-Density Lipoprotein",
+    "Fasting Blood Sugar"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Fasting Blood Sugar",
+    "aliases": [
+    "FBS",
+    "Fasting Glucose",
+    "Plasma Glucose Fasting",
+    "FPG"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 70.0,
+    "max": 99.0
+    },
+    "female": {
+    "min": 70.0,
+    "max": 99.0
+    }
+    },
+    "plain_english_function": "Fasting blood sugar measures the amount of glucose (sugar) in your blood after you haven't eaten for at least eight hours. It is used to screen for diabetes.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypoglycemia",
+    "potential_causes": [
+    "Taking too much insulin or diabetes medication",
+    "Skipping meals",
+    "Severe liver disease",
+    "Certain tumors"
+    ],
+    "related_markers_to_check": [
+    "Hemoglobin A1c"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperglycemia",
+    "potential_causes": [
+    "Diabetes or prediabetes",
+    "Severe stress or trauma",
+    "Pancreas problems",
+    "Certain medications like steroids"
+    ],
+    "related_markers_to_check": [
+    "Hemoglobin A1c",
+    "Triglycerides"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Hemoglobin A1c",
+    "aliases": [
+    "HbA1c",
+    "Glycosylated Hemoglobin",
+    "A1c",
+    "Glycated Hemoglobin"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "%",
+    "reference_ranges": {
+    "male": {
+    "min": 4.0,
+    "max": 5.6
+    },
+    "female": {
+    "min": 4.0,
+    "max": 5.6
+    }
+    },
+    "plain_english_function": "HbA1c measures the average amount of sugar stuck to your red blood cells over the past 3 months. It provides a long-term picture of your blood sugar control.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Not generally clinically significant",
+    "potential_causes": [],
+    "related_markers_to_check": []
+    },
+    "high": {
+    "meaning": "Elevated HbA1c",
+    "potential_causes": [
+    "Prediabetes",
+    "Type 1 or Type 2 Diabetes",
+    "Poorly managed diabetes"
+    ],
+    "related_markers_to_check": [
+    "Fasting Blood Sugar",
+    "Postprandial Blood Sugar"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Thyroid Stimulating Hormone",
+    "aliases": [
+    "TSH",
+    "Thyrotropin"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "mIU/L",
+    "reference_ranges": {
+    "male": {
+    "min": 0.4,
+    "max": 4.0
+    },
+    "female": {
+    "min": 0.4,
+    "max": 4.0
+    }
+    },
+    "plain_english_function": "TSH is a hormone made by your brain that tells your thyroid gland to make hormones. If the thyroid is slow, TSH goes up; if the thyroid is too fast, TSH goes down.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hyperthyroidism",
+    "potential_causes": [
+    "Overactive thyroid gland",
+    "Graves' disease",
+    "Thyroid nodules",
+    "Too much thyroid medication"
+    ],
+    "related_markers_to_check": [
+    "Free T3",
+    "Free T4"
+    ]
+    },
+    "high": {
+    "meaning": "Hypothyroidism",
+    "potential_causes": [
+    "Underactive thyroid gland",
+    "Hashimoto's thyroiditis",
+    "Iodine deficiency",
+    "Thyroid removal surgery"
+    ],
+    "related_markers_to_check": [
+    "Free T3",
+    "Free T4"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Serum Calcium",
+    "aliases": [
+    "Calcium",
+    "Ca",
+    "Total Calcium"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 8.5,
+    "max": 10.2
+    },
+    "female": {
+    "min": 8.5,
+    "max": 10.2
+    }
+    },
+    "plain_english_function": "Calcium is essential for building strong bones and teeth, and it is also needed for muscles to move and nerves to carry messages between the brain and body.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypocalcemia",
+    "potential_causes": [
+    "Vitamin D deficiency",
+    "Underactive parathyroid glands",
+    "Kidney failure",
+    "Malabsorption"
+    ],
+    "related_markers_to_check": [
+    "Alkaline Phosphatase",
+    "25-Hydroxy Vitamin D"
+    ]
+    },
+    "high": {
+    "meaning": "Hypercalcemia",
+    "potential_causes": [
+    "Overactive parathyroid glands",
+    "Certain types of cancer",
+    "Too much Vitamin D or calcium supplements",
+    "Prolonged immobilization"
+    ],
+    "related_markers_to_check": [
+    "Alkaline Phosphatase",
+    "Creatinine"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Serum Albumin",
+    "aliases": [
+    "Albumin",
+    "Alb"
+    ],
+    "category": "Liver Function Test",
+    "unit": "g/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 3.4,
+    "max": 5.4
+    },
+    "female": {
+    "min": 3.4,
+    "max": 5.4
+    }
+    },
+    "plain_english_function": "Albumin is a protein made by your liver that helps keep fluid from leaking out of your blood vessels and transports vitamins and enzymes.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypoalbuminemia",
+    "potential_causes": [
+    "Liver disease (like cirrhosis)",
+    "Kidney disease (losing protein in urine)",
+    "Severe malnutrition",
+    "Chronic inflammation"
+    ],
+    "related_markers_to_check": [
+    "Aspartate Aminotransferase",
+    "Alanine Aminotransferase",
+    "Total Bilirubin",
+    "Creatinine",
+    "Total Protein"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperalbuminemia",
+    "potential_causes": [
+    "Severe dehydration",
+    "High protein diet"
+    ],
+    "related_markers_to_check": [
+    "Blood Urea Nitrogen",
+    "Haematocrit",
+    "Total Protein"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Total Protein",
+    "aliases": [
+    "TP",
+    "Serum Total Protein"
+    ],
+    "category": "Liver Function Test",
+    "unit": "g/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 6.0,
+    "max": 8.3
+    },
+    "female": {
+    "min": 6.0,
+    "max": 8.3
+    }
+    },
+    "plain_english_function": "Total Protein measures the total amount of two classes of proteins found in the fluid portion of your blood: albumin and globulin.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypoproteinemia",
+    "potential_causes": [
+    "Liver disease",
+    "Kidney disease",
+    "Malnutrition or malabsorption conditions"
+    ],
+    "related_markers_to_check": [
+    "Serum Albumin",
+    "Blood Urea Nitrogen"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperproteinemia",
+    "potential_causes": [
+    "Dehydration",
+    "Chronic inflammation or infection",
+    "Multiple myeloma"
+    ],
+    "related_markers_to_check": [
+    "Serum Albumin",
+    "Haematocrit"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Free T3",
+    "aliases": [
+    "Free Triiodothyronine",
+    "FT3"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "pg/mL",
+    "reference_ranges": {
+    "male": {
+    "min": 2.3,
+    "max": 4.1
+    },
+    "female": {
+    "min": 2.3,
+    "max": 4.1
+    }
+    },
+    "plain_english_function": "Free T3 is the active form of thyroid hormone that helps regulate your body's metabolism, heart rate, and temperature.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypothyroidism",
+    "potential_causes": [
+    "Hashimoto's thyroiditis",
+    "Underactive thyroid gland",
+    "Pituitary gland disorders"
+    ],
+    "related_markers_to_check": [
+    "Thyroid Stimulating Hormone",
+    "Free T4"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperthyroidism",
+    "potential_causes": [
+    "Graves' disease",
+    "Overactive thyroid nodules",
+    "Excessive intake of thyroid medication"
+    ],
+    "related_markers_to_check": [
+    "Thyroid Stimulating Hormone",
+    "Free T4"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Free T4",
+    "aliases": [
+    "Free Thyroxine",
+    "FT4"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "ng/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 0.9,
+    "max": 1.7
+    },
+    "female": {
+    "min": 0.9,
+    "max": 1.7
+    }
+    },
+    "plain_english_function": "Free T4 is the main hormone produced by the thyroid gland, which the body converts into T3 to regulate energy and metabolism.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Hypothyroidism",
+    "potential_causes": [
+    "Underactive thyroid gland",
+    "Hashimoto's disease",
+    "Severe iodine deficiency"
+    ],
+    "related_markers_to_check": [
+    "Thyroid Stimulating Hormone",
+    "Free T3"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperthyroidism",
+    "potential_causes": [
+    "Graves' disease",
+    "Thyroiditis (inflammation of the thyroid)",
+    "Toxic multinodular goiter"
+    ],
+    "related_markers_to_check": [
+    "Thyroid Stimulating Hormone",
+    "Free T3"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "25-Hydroxy Vitamin D",
+    "aliases": [
+    "Vitamin D",
+    "Vit D",
+    "25(OH)D",
+    "Cholecalciferol"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "ng/mL",
+    "reference_ranges": {
+    "male": {
+    "min": 30.0,
+    "max": 100.0
+    },
+    "female": {
+    "min": 30.0,
+    "max": 100.0
+    }
+    },
+    "plain_english_function": "Vitamin D is essential for maintaining healthy bones and teeth because it helps your body properly absorb and use calcium.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Vitamin D Deficiency",
+    "potential_causes": [
+    "Lack of sunlight exposure",
+    "Inadequate dietary intake",
+    "Malabsorption syndromes (like Celiac disease)",
+    "Kidney or liver disorders"
+    ],
+    "related_markers_to_check": [
+    "Serum Calcium",
+    "Alkaline Phosphatase"
+    ]
+    },
+    "high": {
+    "meaning": "Hypervitaminosis D",
+    "potential_causes": [
+    "Excessive use of Vitamin D supplements",
+    "Accidental overdose of prescribed vitamins"
+    ],
+    "related_markers_to_check": [
+    "Serum Calcium",
+    "Creatinine"
+    ]
+    }
+    }
+    },
+    {
+    "biomarker": "Postprandial Blood Sugar",
+    "aliases": [
+    "PPBS",
+    "Postprandial Glucose",
+    "2-hour PP",
+    "PP"
+    ],
+    "category": "Metabolic/Endocrine",
+    "unit": "mg/dL",
+    "reference_ranges": {
+    "male": {
+    "min": 70.0,
+    "max": 140.0
+    },
+    "female": {
+    "min": 70.0,
+    "max": 140.0
+    }
+    },
+    "plain_english_function": "Postprandial blood sugar measures your blood glucose levels exactly two hours after you start eating a meal to see how well your body handles sugar.",
+    "clinical_context": {
+    "low": {
+    "meaning": "Reactive Hypoglycemia",
+    "potential_causes": [
+    "Taking too much insulin relative to the meal eaten",
+    "Waiting too long to eat after taking diabetes medication",
+    "Excessive alcohol consumption"
+    ],
+    "related_markers_to_check": [
+    "Fasting Blood Sugar"
+    ]
+    },
+    "high": {
+    "meaning": "Hyperglycemia",
+    "potential_causes": [
+    "Insulin resistance or impaired glucose tolerance",
+    "Type 1 or Type 2 Diabetes",
+    "Eating a meal exceptionally high in carbohydrates"
+    ],
+    "related_markers_to_check": [
+    "Fasting Blood Sugar",
+    "Hemoglobin A1c"
+    ]
+    }
+    }
+    }
+    ]
