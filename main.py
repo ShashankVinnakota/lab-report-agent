@@ -1,62 +1,67 @@
-
 import re
 import sys
+import json
 import pdfplumber
 
 
-# Only lines containing these words are considered biomarker results
-VALID_UNITS = {"mg/L", "g/dL", "g/L", "mg/dL", "mmol/L", "umol/L", "nmol/L",
-               "IU/L", "U/L", "mIU/L", "uIU/mL", "ng/mL", "pg/mL", "ng/dL",
-               "ug/dL", "ug/L", "mmHg", "%", "fL", "pg", "10^3/uL", "10^6/uL",
-               "cells/uL", "mm/hr", "sec", "ratio", "mEq/L", "mosm/kg"}
-
-# Lines containing these are definitely NOT biomarker results
-SKIP_KEYWORDS = ["name", "age", "gender", "ref.", "ref by", "sample type",
-                 "registered", "collected", "released", "printed", "regn",
-                 "registration", "method", "interpretation", "comment",
-                 "according", "low", "average", "high", "cardio", "risk",
-                 "level", "increased", "reveals", "persistent", "dr.", "dr ",
-                 "test name", "result", "biological", "reference interval"]
-
-
-def extract_biomarkers(filepath):
+def extract_text(filepath):
     text = ""
     with pdfplumber.open(filepath) as pdf:
         for page in pdf.pages:
             text += page.extract_text() or ""
+    return text
 
-    biomarkers = {}
+
+def extract_biomarkers(pdf_path, json_path):
+    with open(json_path) as f:
+        biomarker_defs = json.load(f)
+
+    lookup = {}
+    for b in biomarker_defs:
+        canonical = b["biomarker"]
+        lookup[canonical.lower()] = canonical
+        for alias in b.get("aliases", []):
+            lookup[alias.lower()] = canonical
+
+    text = extract_text(pdf_path)
+    results = {}
 
     for line in text.splitlines():
-        line = line.strip()
-        if not line:
+        line_stripped = line.strip()
+        if not line_stripped:
             continue
 
-        # Skip lines with known non-biomarker keywords
-        if any(kw in line.lower() for kw in SKIP_KEYWORDS):
+        matched_canonical = None
+        for alias, canonical in lookup.items():
+            if alias in line_stripped.lower():
+                matched_canonical = canonical
+                break
+
+        if not matched_canonical:
             continue
 
-        # Match: "Test Name : 0.82 mg/L"
-        match = re.search(r'^(.+?)\s*:\s*(\d+\.?\d*)\s+([^\s<>]+)', line)
-        if not match:
+        if ":" in line_stripped:
+            after_colon = line_stripped.split(":", 1)[1]
+            numbers = re.findall(r'\b\d+\.?\d*\b', after_colon)
+        else:
+            numbers = re.findall(r'\b\d+\.?\d*\b', line_stripped)
+
+        if not numbers:
             continue
 
-        name = match.group(1).strip()
-        value = float(match.group(2))
-        unit = match.group(3).strip()
-
-        # Only accept if unit looks medical (not a date, ID, etc.)
-        if not any(u.lower() in unit.lower() for u in VALID_UNITS):
+        value = float(numbers[0])
+        if value > 100000:
             continue
 
-        biomarkers[name] = {"value": value, "unit": unit}
+        results[matched_canonical] = value
 
-    return biomarkers
+    return results
 
 
-if __name__ == "__main__":
-    path = "/Users/shashankvinnakota/Documents/lab report agent/261290000978_Report (1).pdf"
-    result = extract_biomarkers(path)
-    for name, data in result.items():
-        print(f"{name}: {data['value']} {data['unit']}")
-    print("\nAs dict:", result)
+# ── SET YOUR PATHS HERE ──────────────────────────────────────────
+PDF_PATH  = "/Users/shashankvinnakota/Documents/lab report agent/261290000978_Report (1).pdf"
+JSON_PATH = "/Users/shashankvinnakota/Documents/lab report agent/medical_benchmark.json"
+# ────────────────────────────────────────────────────────────────
+
+result = extract_biomarkers(PDF_PATH, JSON_PATH)
+print(result)
